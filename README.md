@@ -2,6 +2,8 @@
 
 Very simple chat, client side.
 
+![Screenshot 1](screenshot_1.png "Screenshot 1")
+
 Server is [here](https://github.com/SCP002/go_chat_server).
 
 ## Keybindings
