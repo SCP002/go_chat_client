@@ -70,10 +70,10 @@ See [releases page](https://github.com/SCP002/go_chat_client/releases).
     go get -u ./...
     ```
 
-5. To build a binary for current OS / architecture into `../build/` folder:
+5. To build a binary for current OS / architecture into `./build/` folder:
 
     ```sh
-    go build -o ../build/ main.go
+    go build -o ./build/ main.go
     ```
 
     Or use convenient cross-compile tool to build binaries for every OS / architecture pair:
@@ -81,5 +81,5 @@ See [releases page](https://github.com/SCP002/go_chat_client/releases).
     ```sh
     go get github.com/mitchellh/gox
     go install github.com/mitchellh/gox
-    gox -output "../build/{{.Dir}}_{{.OS}}_{{.Arch}}" ./
+    gox -output "./build/{{.Dir}}_{{.OS}}_{{.Arch}}" ./
     ```
