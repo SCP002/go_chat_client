@@ -10,6 +10,8 @@ Server is [here](https://github.com/SCP002/go_chat_server).
 
 * `Tab` - focus next window.
 * `Enter` - send message if input window is currently focused.
+* `Arrow Up` - scroll upwards if chat or online users window is currently focused.
+* `Arrow Down` - scroll downwards if chat or online users window is currently focused.
 * `F2` - open/close online users window.
 * `F3` - insert newline if input window is currently focused. \*[1]
 * `Ctrl + C` - exit.
@@ -26,14 +28,9 @@ Server is [here](https://github.com/SCP002/go_chat_server).
 
 ## Config fields
 
-* `server_address`  
-  Server address in format of `host:port`.
-
-* `tls_mode`
-  Connect to server using TLS protocol?
-
-* `nickname`
-  User name to login with.
+* `server_address` - Server address in format of `host:port`.
+* `tls_mode` - Connect to server using TLS protocol?
+* `nickname` - User name to login with.
 
 ## Tips
 
